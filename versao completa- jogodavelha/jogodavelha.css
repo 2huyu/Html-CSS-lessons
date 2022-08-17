@@ -1,0 +1,69 @@
+*{
+    margin: 0px; padding: 0px; /* azul marinho: #192A32 , azul-claro: #2DC2C0, laranja: #EEAF34, cinza: #A7BDC9 */
+}
+body{
+    position: absolute; width: 100%; height: 100%;
+    font-family: Arial, Helvetica, sans-serif
+}
+img{
+    width: 100%;
+}
+#cabecalho{
+    width: 100%; height: 4em; background-color: darkslategrey;
+    flex-direction: row;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-between; align-items: center;
+}
+.top1{
+    background-color:darkslategrey; margin: 5px; width: 10em; 
+}
+#corpo{
+    background-color: #192A32; width: 100%; height:100%; display: flex;
+    flex-direction: column; align-items: center; justify-content: center;
+}
+.sanduiche1{
+    width: 25em; height: 4em; background-color: #192A32;
+    display: flex; flex-direction: row; justify-content: space-evenly;
+}
+.conteudo1{
+    width: 7em; height: 2em; background-color: #253d47; margin: 10px;
+    display: flex; flex-direction: row; justify-content: space-evenly;
+    border-radius: 7px;
+}
+.sanduiche2{
+    width: 25em; height: 25em; background-color: #192A32;
+    margin:10px; flex-wrap: wrap;display: flex;
+    
+}
+.conteudo2{
+    width: 7em; height: 7em; margin: 10px; background-color:#253d47;
+    border-radius:30px; box-shadow: 0px 3px 3px 0px  #131c20;
+}
+.conteudo3-1{
+    width: 7em; height: 3em; background-color: #2DC2C0; margin: 10px; 
+    border-radius: 15px; display:flex;
+    justify-content: center; align-items: center ; flex-direction: column;
+}
+.conteudo3-2{
+    width: 7em; height: 3em; background-color: #A7BDC9; margin: 10px; 
+    border-radius: 15px; display:flex;
+    justify-content: center; align-items: center ; flex-direction: column;
+}
+.conteudo3-3{
+    width: 7em; height: 3em; background-color: #EEAF34; margin: 10px; 
+    border-radius: 15px; display:flex;
+    justify-content: center; align-items: center ; flex-direction: column;
+}
+.negrito{
+    font-weight: bolder; text-emphasis-color: w;
+}
+.conteudo1-2{
+    width: 2em; height: 2em; justify-content: space-around; align-items: center; display:flex; padding: 2px;
+    color: white;
+}
+#conteudo1-3{
+    display:flex; justify-content: space-around;
+    background-color: #192A32;
+}
+
