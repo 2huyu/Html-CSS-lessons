@@ -1,0 +1,18 @@
+.navs{
+	flex-wrap: wrap;
+	width: 80%;
+	height: 50px;
+	background-color: yellow;
+	justify-content:  space-between;
+	align-items: center;
+	list-style-type: none;
+	padding: 10px;
+}
+.navs a{
+	text-decoration:  none;
+	list-style-type: none;
+}
+
+#wrap{
+	flex-wrap:  wrap;
+}
