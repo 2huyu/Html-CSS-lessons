@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta charset="utf-8">
+		<title>Formulário Exercício</title>
+	</head>
+	<body style="background-color: whitesmoke;">	
+		<center>
+			<form METHOD="POST" ACTION="">
+				<fieldset style="width: 350px">
+					<legend>Compras</legend>
+				    <table>
+					    <tr>
+					        <th colspan="2">Produtos</th>
+					        <th colspan="1">Lista de Compras</th>
+					    </tr>
+					    <tr>
+					        <td colspan="2">
+					        	<select name="produto">
+					        		<optgroup label="Aquários">
+					        			<option value="aquario43L">Aquário 43L</option>
+					        			<option value="aquario84L">Aquário 84L</option>
+					        		</optgroup>
+					        	</select>
+					        	<button type="" value="" id="">+</button>
+					        </td>
+					        
+					        <td colspan="1" rowspan="3">
+					        	<textarea rows="10" cols="15"></textarea>
+					        </td>
+					    </tr>
+					    <tr>
+					    	<th colspan="2"><br><br>Complementos</th>
+					    </tr>
+					    <tr>
+					    	<td colspan="2">
+						    	<input type="radio" name="complementos" value="">Movel+Luminária<br>
+						    	<input type="radio" name="complementos" value="">Luminária<br>
+						    	<input type="radio" name="complementos" value="">Só vidro<br>
+						    </td>
+					    </tr>
+					    <tr>
+					    	<td colspan="2">
+					    		<input type="checkbox" name="presente" value="">Entrega como presente
+					    	</td>
+					    	<td colspan="1">
+					    		Valor total:<input type="text" name="valor" size="3">
+					    	</td>
+					    </tr>
+					</table>
+				</fieldset>
+			</form>
+		</center>
+	</body>
+</html>
