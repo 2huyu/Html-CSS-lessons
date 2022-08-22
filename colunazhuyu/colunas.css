@@ -1,0 +1,63 @@
+*{
+    margin: 0px; padding: 0px; 
+}
+@media (max-width: 400px) (orientation: portrait){
+  .facet_sidebar{/*esse css só vai funcionar até o max-width indicado*/
+    display: none;
+   }
+   .container1{
+       width: 50%;
+       border-radius: 10px 10px 0px 0px
+   } 
+   .container3{
+    width: 50%;
+    border-radius: 10px 10px 0px 0px;
+    } 
+}
+body{
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 400;
+}
+img{max-width: 100%; height: 100%;}
+
+#corpo{
+    width: 100%; display: flex; max-height: 100%;
+    flex-direction: row; flex-wrap: wrap; border-radius: 20px;
+}
+.container1{
+    width: 25%; min-width: 300px; height: 100%; background-color: hsl(31, 77%, 52%); display: flex; padding: 4%;
+    flex-direction: column; 
+}
+.container2{
+    width: 25%; min-width: 300px; height: 100%; background-color: hsl(184, 100%, 22%); display: flex; padding: 4%;
+    flex-direction: column; 
+}
+.container3{
+    width: 25%; min-width: 300px; height: 100%; background-color: hsl(179, 100%, 13%); display: flex; padding: 4%;
+    flex-direction: column; 
+}
+.elementos{
+    margin: 20px 20px 20px 20px; color: hsl(0, 0%, 95%);
+    width: 50%; height: 4em;
+}
+h1{
+    font-size: 3em;
+}
+.texto{
+    margin: 0px 100px 100px 20px; color:hsla(0, 0%, 100%, 0.75)
+}
+.botao1{
+    margin: 20px; width: 50%; height: 4em; background-color: hsl(0, 0%, 95%); display: flex;
+    border-radius: 30px; justify-content: center; text-align: center; align-items: center; 
+    color: hsl(31, 77%, 52%) 
+}
+.botao2{
+    margin: 20px; width: 50%; height: 4em; background-color: hsl(0, 0%, 95%); display: flex;
+    border-radius: 30px; justify-content: center; text-align: center; align-items: center; 
+    color: hsl(184, 100%, 22%) 
+}
+.botao3{
+    margin: 20px; width: 50%; height: 4em; background-color: hsl(0, 0%, 95%); display: flex;
+    border-radius: 30px; justify-content: center; text-align: center; align-items: center;  
+    color: hsl(179, 100%, 13%)
+}
